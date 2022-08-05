@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.aboutCard1
+{
+margin-right: 100px;
+  margin: auto;
+  
+}
+
+.aboutCard1 h4 {
+  color: lightblue;
+}
+ h5 {
+  font-size: 45px;
+  font-weight: 400;
+  margin: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  text-align: center;
+}
+ .top1 p {
+  font-size: 25px;
+  margin: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.aboutCard1 h1 span {
+  font-weight: bold;
+}
+.aboutCard1 p {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aboutCard1 .row1 {
+  margin: auto;
+}
+
+.features1{
+  /*margin-right: 300px;*/
+}
+.features1 .flex_space1 {
+  display: inline-block;
+  column-count: 2;
+  margin-left: 5px;
+  margin-right: 150px;
+  padding-right: 50px;
+  column-gap: 150px;
+  column-width: 300px;
+}
+
+.features1 .control-btn,
+.features1 .image::after,
+.features1 .image::before,
+.features1 .control-btn::before {
+  display: none;
+}
+.features1 h1 {
+  font-weight: bold;
+}
+.features1 h1 span {
+  color: #6aa1c1;
+}
+
+.timeline {
+  font-weight: bold;
+}
+.timeline span {
+  color: #6aa1c1;
+}
+@media screen and (max-width: 768px) {
+  .features1 .flex_space1,
+  .aboutCard1, .timeline {
+    flex-direction: column;
+  }
+  .aboutCard1 .image::after,
+  .aboutCard1 .image::before,
+  .aboutCard1 .control-btn::before {
+    display: none;
+  }
+  .aboutCard1 .row {
+    width: 100%;
+  }
+  .aboutCard1.image {
+    margin-top: 40px;
+  }
+  .aboutCard1 img {
+    width: 90%;
+    margin-right: 0px;
+  }
+}

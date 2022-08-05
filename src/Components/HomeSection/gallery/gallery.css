@@ -1,0 +1,9 @@
+.collection img {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  height: 100px;
+  width: 80%;
+}
+.collection img:hover {
+  filter: grayscale(0);
+}

@@ -1,0 +1,96 @@
+.desi .title {
+  margin: 0;
+  background-color: lightseagreen;
+  font-style: bold;
+  font-weight: 300;
+  min-width: 90%;
+
+}
+
+.desi 
+{
+  margin-left: 5px;
+  margin-left: 0px;
+
+  padding: 20px;
+  padding: 0px;
+
+  padding-right: 0px;
+
+  /*right: -400px;*/
+  min-width: 0px;
+
+}
+.desi h3 {
+  margin: 0;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  color: white;
+  height: 190px;
+  padding: 30px 20px;
+
+  /*margin: 30px;*/
+}
+
+.items .img {
+  min-width: 100%;
+  width: auto;
+  max-width: 90%;
+}
+
+/*
+img {
+  max-width: 100%;
+  max-width: auto;
+  overflow: hidden;
+}*/
+
+.desi .items {
+  width: fit-content;
+  min-width: fit-content;
+  position: relative;
+
+  /*left: -40px;*/
+  overflow-x: hidden;
+  overflow-wrap: normal;
+
+}
+
+.desi .item{
+  border-radius: 0px;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: -30px;
+
+}
+
+
+.grid {
+  grid-column-gap: 50px;
+  
+  transform: translateX(10px);
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  max-width: 100%;
+  margin: auto;
+}
+
+
+
+/*
+.expand{
+  max-width: 90%;
+}
+
+
+.grid-container{
+  grid-template-columns: auto auto min-content min-content;
+
+}
+
+.grid-item {
+  padding: 20px 0;
+  text-align: center;
+
+}*/
