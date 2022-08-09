@@ -1,7 +1,7 @@
 import React from "react"
 import "../popular/MostPopular.css"
 import "./Quotes.css"
-import Card from "./Card"
+import CardQuote from "./CardQuote"
 import Qdata from "./Qdata"
 
 const Works = () => {
@@ -16,9 +16,10 @@ const Works = () => {
 
           <div className='content grid'>
             {Qdata.map((value, index) => {
-              return <Card key={index} cover={value.cover} title={value.title} desc={value.desc} />
+              return <CardQuote key={index} cover={value.cover} title={value.title} desc={value.desc} />
             })}
           </div>
+
         </div>
       </section>
     </>

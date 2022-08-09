@@ -1,3 +1,20 @@
+#outer{
+  height: 100%;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  display: -webkit-box;
+  -webkit-box-pack: center; /* justify-content */
+  -webkit-box-align: center; /* align-items */
+  }
+  #inner{   
+  position: relative;
+  background-color: #696969;
+  opacity: .5;
+  height: 100%;
+  width: 370px;
+  }
 .navbar {
   background: white;
   position: sticky;
@@ -28,6 +45,13 @@ nav ul li {
   margin-left: 0px;
   margin-top: 1px;
 }
+
+/*
+.pic{
+  width: 10%;
+  height: auto;
+}*/
+
 #logo img{
   height: 18%;
   width: auto;
@@ -162,6 +186,11 @@ header h4 {
 
 /*--------header------------*/
 @media screen and (max-width: 768px) {
+  input.translatable {
+
+    width: 250px !important;
+   
+   
   /*--------header--------*/
   header .container {
     flex-direction: column;
@@ -180,5 +209,6 @@ header h4 {
     margin-right: 5px;
     margin-top: 10px;
   }
+}
   /*--------header--------*/
 }

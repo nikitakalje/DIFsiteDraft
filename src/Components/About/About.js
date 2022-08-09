@@ -12,6 +12,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"
 import { collection, query, getDocs, orderBy } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
+import { VerticalTimeline } from "react-vertical-timeline-component"
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -110,13 +111,13 @@ ENHANCING DIGITAL SKILLS TO ACCESS JOBS, EDUCATIONAL OPPORTUNITIES, & CRITICAL S
       {/*<section>*/}
         <div className="App">
           {data && ( // This just says: if data exists, then show this code
-            <>
+            <VerticalTimeline>
               {data.map((item, key) => {
                 return (
                   <Timeline timelineData={item.docData}/>
                   );
               })}
-            </>
+            </VerticalTimeline>
           )}
         </div>
      {/* </section>*/}

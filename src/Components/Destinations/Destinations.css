@@ -72,6 +72,8 @@ img {
   
   transform: translateX(10px);
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+
   max-width: 100%;
   margin: auto;
 }

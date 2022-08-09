@@ -6,6 +6,12 @@
 .works img {
   width: auto;
   height: auto;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  margin-top: 0%;
+  margin-left: 90%;
 }
 .works .box {
   padding: 40px 20px;

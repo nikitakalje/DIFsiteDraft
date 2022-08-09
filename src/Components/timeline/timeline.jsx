@@ -7,16 +7,17 @@ const Event = (props) => {
     const {year, img, title, date, description} = props
     return(
         
-        <VerticalTimeline lineColor={ '#CECECE' }>
+     
+
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'lightgrey', color: '#000000' }}
                 
 
                 date={year} // Prop: Year
-                iconStyle={{ background: '#D9D9D9', color: 'blue' }}
+                iconStyle={{ background: 'lightseagreen', color: 'blue' }}
 
-                layout = '2-columns'
+                layout = {'2-columns'}
             >
                
                 <h2 className="vertical-timeline-element-title"> {title} </h2>
@@ -29,7 +30,6 @@ const Event = (props) => {
                 <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Learn More</a>
 
             </VerticalTimelineElement>
-    </VerticalTimeline>
     
     )
 }
@@ -37,7 +37,7 @@ const Event = (props) => {
 function Timeline(props) {
     const newDate = props.timelineData.date.toDate().toDateString()
     return (
-        <section>
+    
             <Event
                 year={props.timelineData.year}
                 img={props.timelineData.img}
@@ -45,7 +45,6 @@ function Timeline(props) {
                 date={newDate}
                 description={props.timelineData.description}
             />
-        </section>
 
     )
 }
@@ -143,3 +142,5 @@ export {Timeline};
 //         </VerticalTimelineElement>
 //     )
 // }
+
+

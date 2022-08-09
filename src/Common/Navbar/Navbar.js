@@ -14,9 +14,11 @@ const Navbar = () => {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? "fas fa-times" : " fas fa-bars"}></i>
           </div>
-          <div id = "logo">
-          <img src='/images/logo.jpg' alt='' />
-          </div>
+         {/* <div className = 'pic'>*/}
+            <div id = "logo">
+              <img src='/images/logo.jpg' alt='' />
+            </div>
+        {/*  </div>*/}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/*<div className="absolute left-0 top-0 h-1/4 w-1/4 flex-shrink-0">*/}
 

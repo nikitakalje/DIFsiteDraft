@@ -3,7 +3,7 @@ const Wdata = [
     id: 1,
     cover: "/images/works/work-1.png",
     title: "“We are in a tech world, and we don’t want to leave anyone behind”",
-    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum.",
+    desc: "-8 year old student",
   },
   {
     id: 1,

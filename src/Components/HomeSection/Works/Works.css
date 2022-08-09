@@ -2,10 +2,12 @@
   text-align: center;
   background-color: #fff;
   margin-bottom: 20px;
+
 }
-.works img {
+.works .icon img {
   width: auto;
   height: auto;
+  margin: auto
 }
 .works .box {
   padding: 40px 20px;
@@ -20,6 +22,14 @@
 .works p {
   font-size: 14px;
 }
+
+.works .grid{
+  align-items: center;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 @media screen and (max-width: 768px) {
   .works .grid {
     grid-template-columns: repeat(1, 1fr);
